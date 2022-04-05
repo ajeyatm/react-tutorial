@@ -1,3 +1,20 @@
 .header {
-  font-size: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: darkgray;
+  padding: 20px;
+}
+
+.appname {
+  font-size: 30px;
+}
+.menu {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+}
+.username {
+  font-size: 20px;
 }
