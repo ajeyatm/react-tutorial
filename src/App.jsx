@@ -5,6 +5,8 @@ import DisplayNumber from './components/DisplayNumber'
 
 import './App.css'
 import AnotherComponent from './components/AnotherComponent'
+import ShowTimeUsingFunc from './components/ShowTimeUsingFunc'
+import ShowTimeUsingClass from './components/ShowTimeUsingClass'
 
 const App = () => {
   const [visible, setVisible] = useState(false)
@@ -44,6 +46,9 @@ const App = () => {
           Turn off class component
         </button>
         {visible ? <AnotherComponent /> : null}
+        <div>{'=========================================='}</div>
+        <ShowTimeUsingFunc />
+        <ShowTimeUsingClass />
       </div>
       <Footer />
     </React.Fragment>
